@@ -1,4 +1,3 @@
-mod file_extensions;
-mod image;
-mod markdown;
-pub use markdown::MarkdownCache;
+mod core;
+
+pub use core::MarkdownCache;
